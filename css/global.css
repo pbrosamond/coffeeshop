@@ -39,6 +39,7 @@ a {
     font-weight: 400;
     cursor: pointer;
     color: #393939;
+    width: fit-content;
 }
 
 button {
