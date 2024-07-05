@@ -40,12 +40,39 @@
     box-shadow: 0 0.3125rem 0.5625rem -0.0625rem rgba(0, 0, 0, 0.25);
     align-items: center;
     justify-content: center;
+    background-color: white;
 }
 
 .products__image {
-    width: 8rem;
+    height: 14.375rem;
 }
 
 .products__price {
     color: #5BACC3;
+}
+
+.discount {
+    background-color: white;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.discount__container {
+    background-color: #393939;
+    width: 70%;
+    height: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.discount__text {
+    color: white;
+    font-weight: 400;
+}
+
+.discount__text--bold {
+    font-weight: 700;
 }
