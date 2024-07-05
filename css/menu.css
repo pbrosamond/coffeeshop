@@ -1,0 +1,23 @@
+.hero {
+    background-image: url(../assets/images/coffee-circle.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 32rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #393939;
+    height: 12rem;
+    width: 22%;
+}
+
+.hero__title {
+    color: white;
+}
