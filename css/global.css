@@ -73,16 +73,17 @@ p {
 
 .nav {
     display: flex;
-    align-items: baseline;
-    gap: 3rem;
+    align-items: center;
+    justify-content: space-between;
     background-color: #FFF0ED;
     padding: 0 1.25rem;
+    height: 7rem;
 }
 
 .nav__container {
     display: flex;
     gap: 0.5rem;
-    align-items: baseline;
+    align-items: center;
 }
 
 .nav__logo {
