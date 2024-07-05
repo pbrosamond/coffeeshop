@@ -65,7 +65,7 @@ h3 {
 }
 
 p {
-    font-size: 1.125rem;
+    font-size: 1rem;
     font-weight: 400;
 }
 
@@ -103,4 +103,29 @@ p {
 .nav__link--active {
     color: #5BACC3;
 }
+
+.footer {
+    padding: 3rem 10rem;
+    background-color: #FFF0ED;
+    height: 14rem;
+    display: flex;
+    align-items: center;
+    gap: 6rem;
+}
+
+.footer__title {
+    margin-bottom: 1rem;
+}
+
+.footer__text--bold {
+    font-weight: 700;
+}
+
+.footer__icon {
+    height: 3.125rem;
+}
+
+
+
+
 
