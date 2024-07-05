@@ -35,6 +35,19 @@ a {
     text-decoration: none;
     font-size: 1.3125rem;
     font-weight: 400;
+    cursor: pointer;
+}
+
+button {
+    font-size: 1.3125rem;
+    font-weight: 400;
+    color: #fff;
+    width: 100%;
+    max-width: 11.25rem;
+    padding: 1.25rem;
+    background-color: #5BACC3;
+    border: none;
+    cursor: pointer;
 }
 
 h1, h2 {
