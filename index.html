@@ -15,11 +15,53 @@
     <title>Coffee Shop</title>
 </head>
 <body>
-    <header>
-        
+    <header class="nav">
+        <div class="nav__container">
+            <img class="nav__logo" src="./assets/logo/coffee-beans-logo-and-footer.svg" alt="coffee beans logo">
+            <a class="nav__name" href="./index.html">nitro</a>
+        </div>
+        <ul class="nav__list">
+            <li>
+                <a class="nav__link--active" href="./index.html">ABOUT</a>
+            </li>
+            <li>
+                <a href="./pages/menu.html">MENU</a>
+            </li>
+            <li>
+                <a href="./pages/menu.html">SHOP NOW</a>
+            </li>
+        </ul>
     </header>
     <main>
-
+        <section class="hero">
+            <div class="hero__container">
+                <h1>Nitro Coffee</h1>
+                <p>Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries from certain coffee species</p>
+                <a href="./pages/menu.html"><button>SHOP NOW</button></a>
+            </div>
+            <img src="./assets/images/coffeebeans-hero.png" alt="coffee bag">
+        </section>
+        <section class="products">
+            <h2>Our Products</h2>
+            <div class="products__container">
+                <article class="products__card">
+                    <img class="products__image" src="./assets/images/coffeebeans.png" alt="coffee beans">
+                    <h3>Coffee Beans</h3>
+                    <h3 class="products__price">$18.99</h3>
+                </article>
+                <article class="products__card">
+                    <img class="products__image" src="./assets/images/coffeebeans.png" alt="coffee beans">
+                    <h3>Coffee Beans</h3>
+                    <h3 class="products__price">$18.99</h3>
+                </article>
+                <article class="products__card">
+                    <img class="products__image" src="./assets/images/coffeebeans.png" alt="coffee beans">
+                    <h3>Coffee Beans</h3>
+                    <h3 class="products__price">$18.99</h3>
+                </article>
+            </div>
+            <a href="./pages/menu.html"><button>VIEW ALL</button></a>
+        </section>
     </main>
     <footer>
 
