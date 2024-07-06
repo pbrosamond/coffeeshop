@@ -7,7 +7,7 @@
     align-items: center;
 
     &__container {
-        width: 30%;
+        width: 33%;
         display: flex;
         flex-direction: column;
         gap: 2rem;
@@ -53,6 +53,62 @@
     }
 }
 
+.learn {
+    background-color: white;
+    padding: 5rem 1.25rem 0;
+    display: flex;
+    gap: 1.25rem;
+    justify-content: space-around;
+    align-items: center;
+
+    &__container {
+        width: 33%;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    &__icons {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__icon {
+        height: 3.125rem;
+    }
+
+    &__subcontainer {
+        position: relative;
+        height: 25rem;
+        width: 25rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(../assets/images/coldbrewbackground.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: -20px;  
+            left: -20px; 
+            right: 20px; 
+            bottom: 20px;
+            border: 5px solid #5BACC3;
+        }
+    
+        &-image {
+            position: absolute;
+            bottom: 4.5rem;
+            left: 7rem;
+        }
+    }
+
+}
+
 .discount {
     background-color: white;
     height: 30rem;
@@ -78,4 +134,6 @@
         }
     }
 }
+
+
 
