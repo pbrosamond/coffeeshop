@@ -46,13 +46,32 @@ button {
     font-size: 1.3125rem;
     font-weight: 400;
     color: #fff;
-    min-width: 11.25rem;
-    width: 100%;
-    max-width: 11.25rem;
+    width: 11.25rem;
     padding: 1.25rem;
     background-color: #5BACC3;
     border: none;
     cursor: pointer;
+    position: relative;
+    height: 4.5rem;
+}
+
+.button {
+    position: relative;
+    width: 11.25rem;
+
+    &__border {
+        width: 11.25rem;
+        font-size: 1.3125rem;
+        font-weight: 400;
+        cursor: pointer;
+        color: white;
+        border: 2.5px solid #393939;
+        position: absolute;
+        bottom: .3125rem;
+        right: .3125rem;
+        padding: 1.25rem;
+        text-align: center;
+    }
 }
 
 h1, h2 {
@@ -112,6 +131,7 @@ p {
     height: 14rem;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     gap: 6rem;
 
     &__title {
