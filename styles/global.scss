@@ -135,6 +135,7 @@ p {
     align-items: center;
     justify-content: space-between;
     gap: 6rem;
+    position: relative;
 
     &__title {
         margin-bottom: 1rem;
@@ -146,6 +147,22 @@ p {
     
     &__icon {
         height: 3.125rem;
+    }
+
+    &__image {
+        position: absolute;
+        height: 7rem;
+        opacity: 25%;
+
+        &--left {
+            bottom: 6rem;
+            left: -2.5rem;
+        }
+
+        &--right {
+            bottom: 1rem;
+            right: -2.5rem;
+        }
     }
 }
 
