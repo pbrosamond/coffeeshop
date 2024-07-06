@@ -94,11 +94,12 @@ p {
 
 .nav {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     justify-content: space-between;
     background-color: #FFF0ED;
     padding: 0 1.25rem;
     height: 7rem;
+    padding-top: 1rem;
 
     &__container {
         display: flex;
