@@ -72,6 +72,11 @@ button {
         right: .3125rem;
         padding: 1.25rem;
         text-align: center;
+
+        &:active {
+            bottom: 0;
+            right: 0;
+        }
     }
 }
 

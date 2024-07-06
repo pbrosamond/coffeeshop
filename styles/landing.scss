@@ -1,5 +1,19 @@
 @use "./partials/global" as *;
 
+// KEYFRAMES
+
+@keyframes colour-change {
+    0%, 100% { background-color: #393939; }
+    50% { background-color: #5BACC3; }
+}
+
+@keyframes rotate-image {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+// STYLING
+
 .hero {
     background-color: #FFF0ED;
     padding: 3rem 1.25rem;
@@ -104,6 +118,10 @@
             position: absolute;
             bottom: 4.5rem;
             left: 7rem;
+            &:hover {
+                animation: rotate-image 2s infinite;
+                animation-timing-function: linear;
+            }
         }
     }
 
@@ -123,6 +141,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        animation: colour-change 2.5s infinite;
     }
     
     &__text {
