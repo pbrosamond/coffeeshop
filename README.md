@@ -1,7 +1,6 @@
 # Coffee Shop Project
 
 ## Sprint 1
-**Due Date: May 5, 2024, by 11:59pm**
 
 ### Overview
 The first project of the program is called Coffee Shop. This project consists of a series of exercises designed to familiarize you with Synapse and the foundational concepts of the program. You will submit your project through Synapse by uploading a zipped folder containing all the files you used to create your project.
@@ -45,7 +44,6 @@ To ensure a complete submission, you should have completed the following exercis
 ---
 
 ## Sprint 2
-**Due Date: May 10, 2024, by 11:59pm**
 
 ### Overview
 The Coffee Shop project continues with Sprint 2, building upon the foundational concepts introduced in Sprint 1. You will submit your project through Synapse by uploading a zipped folder containing all the files you used to create your project.
